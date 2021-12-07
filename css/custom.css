@@ -1,0 +1,19 @@
+.Welcome {
+    background: radial-gradient(rgb(255, 0, 0), rgb(25, 0, 252));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 4px 1px white;
+    font-weight: 600 !important;
+}
+
+.Box {
+    height: 200px;
+}
+
+@media all and (max-width: 900px) {
+    .adjust {
+        /* background-color: rgba(0, 0, 255, 0.2); */
+        padding-top: 50px;
+        box-shadow: 2px 2px 5px black;
+    }
+}
